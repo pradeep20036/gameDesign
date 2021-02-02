@@ -1075,3 +1075,38 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.01-16.23.55:000][  0]LogAssetRegistry: Asset discovery search completed in 60.6507 seconds
 [2021.02.01-16.23.55:003][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
 [2021.02.01-16.23.55:197][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.01-16.40.37:695][984]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.01-16.40.39:607][990]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.02.01-16.40.39:607][990]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.02.01-16.40.39:608][990]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.02.01-16.40.39:709][990]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.01-17.04.58:493][336]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.01-17.04.58:534][336]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-17.04.58:534][336]LogAudioMixer: Display: 1: FrontRight
+[2021.02.02-02.07.11:791][342]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.02-02.07.12:742][342]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.02-02.07.13:109][342]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.02-02.07.13:109][342]LogAudioMixer: Display: 1: FrontRight
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8EC25995-41F4-45A5-704C-FEBBAB88989C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=2bd31c9846ac84dbdd27b080790c0837%7Ce357ce2545b14fb2a5b9f59e6fd85ab6%7C10cc447a-c0e7-400c-a084-13b7adbc31d6&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: libcurl info message cache 1 (Closing connection 1)
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.02.02-02.07.13:480][343]LogHttp: Warning: 0000026ACD3FCF00: libcurl info message cache 3 (Closing connection 2)
+[2021.02.02-02.07.13:708][343]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.02.02-02.07.13:708][343]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.02.02-02.07.13:708][343]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.02.02-02.07.13:725][343]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.02-02.07.13:731][344]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8EC25995-41F4-45A5-704C-FEBBAB88989C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=2bd31c9846ac84dbdd27b080790c0837%7Ce357ce2545b14fb2a5b9f59e6fd85ab6%7C10cc447a-c0e7-400c-a084-13b7adbc31d6&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.02.02-02.07.14:921][347]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.02.02-02.07.14:922][347]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.02.02-02.07.14:922][347]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.02.02-02.07.15:065][347]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.02-02.07.16:940][353]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.02.02-02.07.16:940][353]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.02.02-02.07.16:940][353]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.02.02-02.07.17:073][353]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.02.02-02.07.18:855][359]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.02.02-02.07.18:855][359]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.02.02-02.07.18:856][359]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.02.02-02.07.19:081][359]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
